@@ -19,5 +19,5 @@ console.log('The first blanc space are in the position: '+ find);
 //2-f
 var str4 = 'economia reseciva';
 var final = str4[0].toLocaleUpperCase() + str4.substr(1 , str4.indexOf(' ')).toLocaleLowerCase() + 
-            str4[str4.indexOf(' ')+1].toLocaleUpperCase() + str4.substr(str4.indexOf(' ')).toLowerCase();
+            str4[str4.indexOf(' ')+1].toLocaleUpperCase() + str4.substr(str4.indexOf(' ')+2).toLowerCase();
 console.log('The original sentece is :' + str4, ',and the result is:' +final);
